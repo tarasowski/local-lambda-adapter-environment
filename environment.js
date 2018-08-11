@@ -1,5 +1,5 @@
 module.exports = (config) => {
-    if (config.test === "memory") {
+    if (config.environment === "test") {
         return './adapter-inmemory'
     }
     else {
